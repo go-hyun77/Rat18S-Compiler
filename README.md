@@ -17,3 +17,20 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
                } 
 
 
+"LexicalAnalyzer.h" contains lexer(), which parses a text file containing sample code of Rat18S. Tokens generated are returned to a vector, which is then outputted in the text file "lexeme.txt".
+
+      token          lexeme
+
+      function       Keyword
+      convert$       Identifier
+      [              Seperator
+      fahr           Identifier
+      :              Operator
+      int            Keyword
+      ]              Seperator
+      .....
+      ....
+      ...
+      ..
+      
+
