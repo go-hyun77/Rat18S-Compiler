@@ -64,7 +64,7 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
      
      
      
-Each "identifier" parsed by lexer() will be stored in an array symbolTable[ ]. Fictional assembly code instructions generated will be stored in an array instrTable[ ] and outputted on the console upon execution of the program. A variable "memory_address" holds the initial value of 2000.
+Each "identifier" parsed by lexer() will be stored in an array symbolTable[]. Fictional assembly code instructions generated will be stored in an array instrTable[] and outputted on the console upon execution of the program. A variable "memory_address" holds the initial value of 2000.
 
 
 	__Symbol__     __Type__       __Memory Address__
