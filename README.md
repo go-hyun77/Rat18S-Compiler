@@ -1,7 +1,7 @@
 ## Disclaimer
 All credit for fictional production rules and Rat18S semantics belong to Professor James Song Choi of California State University, Fullerton.
 
-
+## Guide
 Rat18S is a fictional language created for the purpose of demonstrating lexical analysis, syntax analysis, and intermediate code generation. A simple test case is as follows.
 
 
