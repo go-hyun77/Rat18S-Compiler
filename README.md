@@ -17,6 +17,8 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
                } 
 
 
+
+
 "LexicalAnalyzer.h" contains lexer(), which parses a text file containing sample code of Rat18S. Tokens generated are returned to a vector, which is then outputted in the text file "lexeme.txt" as follows.
 
       token          lexeme
@@ -33,6 +35,8 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
       ...
       ..
      
+     
+
 "SyntaxAnalyzer.h" contains syntax rules (rewritten to remove any possible left recursion generated in parse trees) that are outputted in "output.txt" simultaneously as the lexer() function parses and generates tokens. The appropriate production rules used are outputted under the generated token and lexeme. If syntax errors exist, the program will output an error message as well as the line number the syntax error is detected on.
 
       Token: Keyword        Lexeme:   function            
