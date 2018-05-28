@@ -21,6 +21,9 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
                } 
 
 
+<br/>
+<br/>
+<br/>
 
 
 "LexicalAnalyzer.h" contains lexer(), which parses a text file containing sample code of Rat18S. Tokens generated are returned to a vector, which is then outputted in the text file "lexeme.txt" as follows.
@@ -39,7 +42,10 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
       ...
       ..
      
-     
+<br/>
+<br/>
+<br/>
+
 
 "SyntaxAnalyzer.h" contains production rules rewritten to remove any possible left recursion generated in subsequent parse trees. The appropriate production rules used are outputted under the generated token and lexeme simultaneously as lexer() executes. If syntax errors exist, the program will output an error message as well as the line number the syntax error is detected on. All production rules can be viewed in "ProductionRules.txt".
 
@@ -61,7 +67,9 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
       ...
       ..
      
-     
+<br/>
+<br/>
+<br/>
      
 Each "identifier" parsed by lexer() will be stored in an array symbolTable[] outputted to the console containing a memory address as well as its lexeme. Fictional assembly code instructions generated will be stored in an array instrTable[] and outputted on the console upon execution of the program. A variable "memory_address" holds the initial value of 2000. All fictional assembly rules can be viewed in "AssemblyRules.txt".
 
@@ -87,7 +95,11 @@ Each "identifier" parsed by lexer() will be stored in an array symbolTable[] out
 	12             STDIN          
 	...
 	..
-	
+
+<br/>
+<br/>
+<br/>
+
 	
 ## Testing Instructions
 
