@@ -90,3 +90,6 @@ Each "identifier" parsed by lexer() will be stored in an array symbolTable[] out
 	..
 	
 	
+## Testing Instructions
+
+to be added
