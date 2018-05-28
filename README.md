@@ -43,20 +43,20 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
 
 "SyntaxAnalyzer.h" contains production rules rewritten to remove any possible left recursion generated in subsequent parse trees. The appropriate production rules used are outputted under the generated token and lexeme simultaneously as lexer() executes. If syntax errors exist, the program will output an error message as well as the line number the syntax error is detected on. All production rules can be viewed in "ProductionRules.txt".
 
-      Token: Keyword        Lexeme:   function            
-      	<Rat18S> -> <Opt Function Definitions> %% <Opt Declaration List> <Statement List> 
-	<Opt Function Definitions> ->  <Function Definitions> | <Empty>
-	<Function Definitions> -> <Function> | <Function> <Function Definitions>
-	<Function> ->  function <Identifier> [ <Opt Parameter List> ] <Opt Declaration List> <Body>
+	Token: Keyword        Lexeme:   function            
+		<Rat18S> -> <Opt Function Definitions> %% <Opt Declaration List> <Statement List> 
+		<Opt Function Definitions> ->  <Function Definitions> | <Empty>
+		<Function Definitions> -> <Function> | <Function> <Function Definitions>
+		<Function> ->  function <Identifier> [ <Opt Parameter List> ] <Opt Declaration List> <Body>
 
-      Token: Identifier     Lexeme:   convert$            
+	Token: Identifier     Lexeme:   convert$            
 
-      Token: Seperator      Lexeme:   [                   
+	Token: Seperator      Lexeme:   [                   
 
-      Token: Identifier     Lexeme:   fahr                
-      	<Opt Parameter List> -> <Parameter List> | <Empty> <Parameter List> -> <Parameter> | <Parameter>, <Parameter List>
-        <Parameter> -> <IDs> : <Qualifier> 
-        <IDs> -> <Identifier> | <Identifier>, <IDs>
+	Token: Identifier     Lexeme:   fahr                
+		<Opt Parameter List> -> <Parameter List> | <Empty>	<Parameter List> -> <Parameter> | <Parameter>, <Parameter List>
+		<Parameter> -> <IDs> : <Qualifier> 
+		<IDs> -> <Identifier> | <Identifier>, <IDs>
       ....
       ...
       ..
