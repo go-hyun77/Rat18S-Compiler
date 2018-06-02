@@ -1,6 +1,16 @@
 ## Disclaimer
 All credit for Rat18S semantics belong to Professor James Song Choi of California State University, Fullerton.
 
+<br/>
+<br/>
+
+
+## Instructions
+To test the program, compile SyntaxAnalyzer.cpp. In the displayed console screen, enter "testfile.txt"; the program will then output a list of tokens and lexemes in "lexeme.txt", and a list of production rules as well as assembly instructions and memory addresses for parsed identifiers. See the section below for a more detailed explanation.
+
+<br/>
+<br/?
+
 ## Guide
 Rat18S is a fictional language created for the purpose of demonstrating lexical analysis, syntax analysis, and intermediate code generation. A simple test case is as follows.
 
