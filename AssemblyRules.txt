@@ -1,0 +1,22 @@
+//This file contains all fictional assembly instructions for the language "Rat18S", the file itself is not part of the executable code.
+
+PUSHI {Integer Value}: Pushes the {Integer Value} onto the top of the stack.
+PUSHM {ML: Memory Location}: Pushes the value stored at {ML} onto top of the stack.
+POPM {ML}: Pops the value from the top of the stack and stores it at {ML}.
+STDOUT: Pops the value from top of the stack and outputs it to the standard output.
+STDIN: Get the value from the standard input and pushes it onto the top of the stack.
+ADD: Pop the first two items from stack and push the sum onto the top of the stack.
+SUB: Pop the first two items from stack and push the difference onto the top of the stack (Second item - First item).
+MUL: Pop the first two items from stack and push the product onto the top of the stack.
+DIV: Pop the first two items from stack and push the quotient onto the top of the stack (Second item / First item, ignore the remainder).
+GRT: Pops two items from the stack and pushes 1 onto the top of the stack if the second item is larger, otherwise push 0.
+LES: Pops two items from the stack and pushes 1 onto the top of the stack if the second item is smaller than first item, otherwise push 0.
+EQU: Pops two items from the stack and pushes 1 onto the top of the stack if they are equal, otherwise push 0.
+NEQ: Pops two items from the stack and pushes 1 onto the top of the stack if they are not equal, otherwise push 0.
+GEQ: Pops two items from the stack and pushes 1 onto the top of the stack if second item is greater than or equal, otherwise push 0.
+LEQ: Pops two items from the stack and pushes 1 onto the top of the stack if second item is less than or equal, otherwise push 0.
+JUMPZ {IL: Instruction Location}: Pop the stack, if the value is 0 then jump to {IL}.
+JUMP {IL}: Unconditionally jump to {IL}
+LABEL: Empty Instruction; Provides the instruction location to jump to.
+
+
