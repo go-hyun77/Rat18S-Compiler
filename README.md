@@ -40,11 +40,11 @@ Rat18S is a fictional language created for the purpose of demonstrating lexical 
 
       function       Keyword
       convert$       Identifier
-      [              Seperator
+      [              Separator
       fahr           Identifier
       :              Operator
       int            Keyword
-      ]              Seperator
+      ]              Separator
       .....
       ....
       ...
